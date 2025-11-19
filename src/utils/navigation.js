@@ -5,7 +5,9 @@ export const NAV_ITEMS = [
     {path:"/Contact",label:"聯絡我們",icon:"☎"},
 ];
 
-export const isPathActive=(currentPath,targetPath)=>{
+export const isPathActive=(currentPath,targetPath) => {
     if(currentPath === "/" && targetPath === "/") return true;
-    return currentPath !== "/" && currentPath.startsWith(targetPath);
+    if (currentPath !== "/" && currentPath.startsWith(targetPath)) return true;
+    return false;
 };
+
