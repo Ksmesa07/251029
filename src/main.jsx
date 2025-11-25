@@ -10,7 +10,7 @@ import Home from './page/Home.jsx'
 import Menu from './page/Menu.jsx'
 import About from './page/About.jsx'
 
-const router=createBrowserRouter([
+export const router = createBrowserRouter([
   {
     path:'/',
     element:<App />,

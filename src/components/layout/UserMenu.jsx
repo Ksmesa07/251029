@@ -1,7 +1,7 @@
 // import {HiUser} from "react-icons/hi2"
 // import {Link} from "react-router-dom";
 
-// const defaultMenuItems = [
+// const default MenuItems = [
 //     {label:"個人資料"},
 //     {label:"登入"},
 //     {label:"註冊"},
